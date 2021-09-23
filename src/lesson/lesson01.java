@@ -20,8 +20,39 @@ public class lesson01 {
   }else{
    System.out.println("数字が多きすぎます");	  
   }  
+  int a = 1;
+  while(a <= 5) {
+   a ++;
+  System.out.println(a);
+  }
   
-
+  for(int aa=1;aa<=3;aa++) {
+	System.out.println("zzz");  
+  }
   
- }
+  int aaa = 10;
+  switch(aaa / 5 ) {
+   case 0:
+	System.out.println("0");   
+    break;
+   case 1:
+	System.out.println("1");      
+    break;
+   case 2:
+	System.out.println("2");   
+	break;
+   default:
+	System.out.println("xxx");   
+	break;
+  }
+  
+  String[] arrays = {"a","b","c"};
+   for(String array : arrays) {
+    System.out.println(array);	   
+   }
+   
+   System.out.println("数字を入力して下さい");
+   int fb = scanner.nextInt();
+   sublesson.FizzBuzz(fb);
+  } 
 }
